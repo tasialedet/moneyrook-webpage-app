@@ -1,11 +1,11 @@
-import './App.css';
+import "./App.css";
 import logoGif from "./moneyrooklogo.gif";
 import imageOne from "./IMG_3715.jpeg";
 import imageTwo from "./IMG_3718.jpeg";
 import imageThree from "./IMG_3725.jpeg";
 import imageFour from "./IMG_4062.jpeg";
 import Video from "./Video.js";
-
+import Music from "./Music.js";
 
 function App() {
   return (
@@ -45,7 +45,16 @@ function App() {
           </div>
         </div>
       </div>
-      <Video />
+      <div className="container">
+        <div className="row">
+          <div className="col-6">
+            <Video />
+          </div>
+          <div className="col-6">
+            <Music />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
