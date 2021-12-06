@@ -5,6 +5,7 @@ export default function Video() {
     <div className="YoutubeVideoPlayer">
       <iframe
         id="player"
+        title="YoutubeVideoPlayer"
         type="text/html"
         width="640"
         height="390"
